@@ -33,5 +33,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--DetailedSettings-->
+        <scene sceneID="bpM-j7-e9H">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DetailedSettings" id="Zp9-Ee-zM3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Stb-sq-SfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="-11"/>
+        </scene>
     </scenes>
 </document>
