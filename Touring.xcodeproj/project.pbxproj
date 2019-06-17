@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20929F6A22B7CCE100892B7D /* DetailedSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20929F6922B7CCE100892B7D /* DetailedSettings.storyboard */; };
 		CCA75F8922B60AC4009FFDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA75F8822B60AC4009FFDA2 /* AppDelegate.swift */; };
 		CCA75F8B22B60AC4009FFDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA75F8A22B60AC4009FFDA2 /* ViewController.swift */; };
 		CCA75F8E22B60AC4009FFDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA75F8C22B60AC4009FFDA2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20929F6922B7CCE100892B7D /* DetailedSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailedSettings.storyboard; sourceTree = "<group>"; };
 		CCA75F8522B60AC4009FFDA2 /* Touring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA75F8822B60AC4009FFDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCA75F8A22B60AC4009FFDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				CCA75F8822B60AC4009FFDA2 /* AppDelegate.swift */,
 				CCA75F8A22B60AC4009FFDA2 /* ViewController.swift */,
 				CCA75F8C22B60AC4009FFDA2 /* Main.storyboard */,
+				20929F6922B7CCE100892B7D /* DetailedSettings.storyboard */,
 				CCA75F8F22B60AC4009FFDA2 /* Assets.xcassets */,
 				CCA75F9122B60AC4009FFDA2 /* LaunchScreen.storyboard */,
 				CCA75F9422B60AC4009FFDA2 /* Info.plist */,
@@ -125,6 +128,7 @@
 				CCA75F9322B60AC4009FFDA2 /* LaunchScreen.storyboard in Resources */,
 				CCA75F9022B60AC4009FFDA2 /* Assets.xcassets in Resources */,
 				CCA75F8E22B60AC4009FFDA2 /* Main.storyboard in Resources */,
+				20929F6A22B7CCE100892B7D /* DetailedSettings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
