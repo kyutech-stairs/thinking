@@ -1,0 +1,49 @@
+//
+//  AddViewController.swift
+//  ToDoApp
+//
+//  Created by 山之内一隆 on 2019/05/14.
+//  Copyright © 2019 山之内一隆. All rights reserved.
+//
+
+import UIKit
+
+class AddViewController: UIViewController {
+
+
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+
+    @IBAction func pressedButton(_ sender: Any) {
+        if textField.text != ""{
+            let newItem = Item(initTitle: textField.text!)
+            newItem.date = datePicker.date
+            itemArray.append(newItem)
+            textField.text = ""
+            self.navigationController?.popViewController(animated: true)
+        } else{
+            let alert = UIAlertController(title: "入力エラー！", message: "アイテムを入力して下さい", preferredStyle: .alert)
+            let okButton = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alert.addAction(okButton)
+            present(alert, animated: true, completion: nil)
+        }
+    }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
