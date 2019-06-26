@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		209FBD1322C36BA3007E79C4 /* Estimate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209FBD1222C36BA3007E79C4 /* Estimate.storyboard */; };
 		CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC453E7228AC5E0004AACA2 /* AddViewController.swift */; };
 		CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20B822896ACB00708029 /* AppDelegate.swift */; };
 		CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209FBD1222C36BA3007E79C4 /* Estimate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Estimate.storyboard; sourceTree = "<group>"; };
 		CCC453E7228AC5E0004AACA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		CCFF20B522896ACB00708029 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFF20B822896ACB00708029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CCFF20C122896ACB00708029 /* LaunchScreen.storyboard */,
 				CCFF20C422896ACB00708029 /* Info.plist */,
 				CCC453E7228AC5E0004AACA2 /* AddViewController.swift */,
+				209FBD1222C36BA3007E79C4 /* Estimate.storyboard */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				CCFF20C322896ACB00708029 /* LaunchScreen.storyboard in Resources */,
 				CCFF20C022896ACB00708029 /* Assets.xcassets in Resources */,
+				209FBD1322C36BA3007E79C4 /* Estimate.storyboard in Resources */,
 				CCFF20BE22896ACB00708029 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
