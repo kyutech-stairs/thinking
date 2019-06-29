@@ -27,6 +27,10 @@ class AddViewController: UIViewController {
             let newItem = Item(initTitle: textField.text!)
             newItem.date = datePicker.date
             itemArray.append(newItem)
+            //sort
+            itemArray = itemArray.sorted(by: { (a, b) -> Bool in
+                return a.date > b.date
+            })
             textField.text = ""
             self.navigationController?.popViewController(animated: true)
         } else{
