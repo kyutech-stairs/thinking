@@ -34,7 +34,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="8Ra-6m-ORd" id="8se-cn-eH7"/>
-                                    <outlet property="delegate" destination="8Ra-6m-ORd" id="aT8-xY-HjS"/>
+                                    <outlet property="delegate" destination="8Ra-6m-ORd" id="iIs-yH-db9"/>
                                 </connections>
                             </tableView>
                         </subviews>
