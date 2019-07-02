@@ -21,9 +21,9 @@ class Estimate_AddViewController: UIViewController{
         if planField.text != ""{
             let newItem = Item(initTitle: planField.text!)
             newItem.date = date_Estimate.date
-            itemArray.append(newItem)
+            itemArray_Estimate.append(newItem)
             //sort
-            itemArray = itemArray.sorted(by: { (a, b) -> Bool in
+            itemArray_Estimate = itemArray_Estimate.sorted(by: { (a, b) -> Bool in
                 return a.date < b.date
             })
             planField.text = ""

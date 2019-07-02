@@ -29,7 +29,7 @@ class EstimateViewController: UITableViewController {
         
         let item1 = Item(initTitle: "何にいくらかかるねん。")
         
-        itemArray.append(item1)
+        itemArray_Estimate.append(item1)
     }
     //MARK: - viewが表示される前に実行
     override func viewWillAppear(_ animated: Bool) {
@@ -37,12 +37,12 @@ class EstimateViewController: UITableViewController {
     }
     //MARK: - セルの個数を返す
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return itemArray.count
+        return itemArray_Estimate.count
     }
     //MARK: - 表示するセルをカスタマイズ
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
-        let item = itemArray[indexPath.row]
+        let item = itemArray_Estimate[indexPath.row]
         let formatter = DateFormatter()
         cell.textLabel?.text = item.title
         formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
@@ -57,7 +57,7 @@ class EstimateViewController: UITableViewController {
     //        let alert = UIAlertController(title: "新しいアイテム", message: "新しいアイテムを入力して下さい", preferredStyle: .alert)
     //        let action = UIAlertAction(title: "追加", style: .default) { (action) in
     //            let newItem = Item(initTitle: textField.text!)
-    //            itemArray.append(newItem)
+    //            itemArray_Estimate.append(newItem)
     //            self.tableView.reloadData()
     //        }
     //        alert.addTextField { (alertTextField) in
@@ -69,14 +69,14 @@ class EstimateViewController: UITableViewController {
     //    }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        itemArray.remove(at: indexPath.row)
+        itemArray_Estimate.remove(at: indexPath.row)
         let indexPaths = [indexPath]
         self.tableView.deleteRows(at: indexPaths, with: .automatic)
     }
     
     //MARK: - チェックする機能
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let item = itemArray[indexPath.row]
+        let item = itemArray_Estimate[indexPath.row]
         item.done = !item.done
         self.tableView.reloadData()
     }
