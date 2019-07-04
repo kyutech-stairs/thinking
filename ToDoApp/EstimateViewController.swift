@@ -41,14 +41,14 @@ class EstimateViewController: UITableViewController {
     }
     //MARK: - 表示するセルをカスタマイズ
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
-        let item = itemArray_Estimate[indexPath.row]
-        let formatter = DateFormatter()
-        cell.textLabel?.text = item.title
-        formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
-        cell.detailTextLabel?.text = formatter.string(from: item.date)
-        cell.accessoryType = item.done ? .checkmark : .none
-        return cell
+        let cellEst = tableView.dequeueReusableCell(withIdentifier: "ItemEstimateCell", for: indexPath)
+        let itemEst = itemArray_Estimate[indexPath.row]
+        let formatterEst = DateFormatter()
+        cellEst.textLabel?.text = itemEst.title
+        formatterEst.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        cellEst.detailTextLabel?.text = formatterEst.string(from: itemEst.date)
+        cellEst.accessoryType = itemEst.done ? .checkmark : .none
+        return cellEst
     }
     
     //MARK: - 追加機能
