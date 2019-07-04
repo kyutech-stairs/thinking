@@ -12,9 +12,12 @@ class Estimate_AddViewController: UIViewController{
     
     
     @IBOutlet weak var planField: UITextField!
+    @IBOutlet weak var moneyField: UITextField!
     @IBOutlet weak var date_Estimate: UIDatePicker!
+    
     override func viewDidLoad(){
         super.viewDidLoad()
+        self.moneyField.keyboardType = UIKeyboardType.numberPad
     }
     
     @IBAction func tappedButton(_ sender: Any) {

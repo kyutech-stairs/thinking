@@ -45,7 +45,7 @@ class EstimateViewController: UITableViewController {
         let itemEst = itemArray_Estimate[indexPath.row]
         let formatterEst = DateFormatter()
         cellEst.textLabel?.text = itemEst.title
-        formatterEst.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        formatterEst.dateFormat = "MM/dd"
         cellEst.detailTextLabel?.text = formatterEst.string(from: itemEst.date)
         cellEst.accessoryType = itemEst.done ? .checkmark : .none
         return cellEst
