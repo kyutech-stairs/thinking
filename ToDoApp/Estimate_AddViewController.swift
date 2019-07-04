@@ -23,13 +23,15 @@ class Estimate_AddViewController: UIViewController{
     @IBAction func tappedButton(_ sender: Any) {
         if planField.text != ""{
             let newItemEst = Item_Estimate(titleEst: planField.text!, money: moneyField.text! )
-            
             newItemEst.dateEst = date_Estimate.date
+            var total:Int = 0
+            total += Int(moneyField.text!)!
             itemArray_Estimate.append(newItemEst)
             //sort
             itemArray_Estimate = itemArray_Estimate.sorted(by: { (a, b) -> Bool in
                 return a.dateEst < b.dateEst
             })
+            print (total)
             planField.text = ""
             self.navigationController?.popViewController(animated: true)
         } else{

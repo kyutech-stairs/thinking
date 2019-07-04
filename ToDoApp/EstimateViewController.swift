@@ -14,33 +14,43 @@ class Item_Estimate{
     var money: String
     var done: Bool = false
     var dateEst: Date = Date()
+    
     //変数の初期化
     init(titleEst: String,money: String){
         self.titleEst = "hoge"
         self.titleEst = titleEst
         self.money = money
     }
+    
 }
+
 //MARK: - item配列
 var itemArray_Estimate:[Item_Estimate] = []
 
 class EstimateViewController: UITableViewController {
     
     
+    @IBOutlet weak var totalLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let item1 = Item_Estimate(titleEst: "何すんねん",money: "いくらすんねん")
+        let item1 = Item_Estimate(titleEst: "",money: "0")
         
         itemArray_Estimate.append(item1)
+        
+        
     }
     //MARK: - viewが表示される前に実行
     override func viewWillAppear(_ animated: Bool) {
         self.tableView.reloadData()
+        
     }
     //MARK: - セルの個数を返す
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemArray_Estimate.count
+        
     }
     //MARK: - 表示するセルをカスタマイズ
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -53,6 +63,7 @@ class EstimateViewController: UITableViewController {
         cellEst.accessoryType = itemEst.done ? .checkmark : .none
         return cellEst
     }
+    
     
     //MARK: - 追加機能
     //    @IBAction func pressedAddButton(_ sender: Any) {
@@ -76,6 +87,8 @@ class EstimateViewController: UITableViewController {
         let indexPaths = [indexPath]
         self.tableView.deleteRows(at: indexPaths, with: .automatic)
     }
+    
+    
     
     //MARK: - チェックする機能
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
