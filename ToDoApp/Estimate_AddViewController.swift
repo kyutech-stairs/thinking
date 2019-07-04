@@ -21,21 +21,20 @@ class Estimate_AddViewController: UIViewController{
     }
     
     @IBAction func tappedButton(_ sender: Any) {
-        if planField.text != ""{
+        if planField.text != "" && moneyField.text != ""{
             let newItemEst = Item_Estimate(titleEst: planField.text!, money: moneyField.text! )
             newItemEst.dateEst = date_Estimate.date
-            var total:Int = 0
-            total += Int(moneyField.text!)!
+            
             itemArray_Estimate.append(newItemEst)
             //sort
             itemArray_Estimate = itemArray_Estimate.sorted(by: { (a, b) -> Bool in
                 return a.dateEst < b.dateEst
             })
-            print (total)
+        
             planField.text = ""
             self.navigationController?.popViewController(animated: true)
         } else{
-            let alert = UIAlertController(title: "入力エラー！", message: "アイテムを入力して下さい", preferredStyle: .alert)
+            let alert = UIAlertController(title: "入力せんと", message: "エライ目あわすで", preferredStyle: .alert)
             let okButton = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alert.addAction(okButton)
             present(alert, animated: true, completion: nil)
