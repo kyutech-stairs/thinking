@@ -10,16 +10,19 @@ import UIKit
 import Foundation
 
 class Item_Estimate{
-    var title: String
+    var titleEst: String
+    var money: String
     var done: Bool = false
-    var date: Date = Date()
+    var dateEst: Date = Date()
     //変数の初期化
-    init(initTitle: String){
-        self.title = initTitle
+    init(titleEst: String,money: String){
+        self.titleEst = "hoge"
+        self.titleEst = titleEst
+        self.money = money
     }
 }
 //MARK: - item配列
-var itemArray_Estimate:[Item] = []
+var itemArray_Estimate:[Item_Estimate] = []
 
 class EstimateViewController: UITableViewController {
     
@@ -27,7 +30,7 @@ class EstimateViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let item1 = Item(initTitle: "何にいくらかかるねん。")
+        let item1 = Item_Estimate(titleEst: "何すんねん",money: "いくらすんねん")
         
         itemArray_Estimate.append(item1)
     }
@@ -44,9 +47,9 @@ class EstimateViewController: UITableViewController {
         let cellEst = tableView.dequeueReusableCell(withIdentifier: "ItemEstimateCell", for: indexPath)
         let itemEst = itemArray_Estimate[indexPath.row]
         let formatterEst = DateFormatter()
-        cellEst.textLabel?.text = itemEst.title
-        formatterEst.dateFormat = "MM/dd"
-        cellEst.detailTextLabel?.text = formatterEst.string(from: itemEst.date)
+        cellEst.textLabel?.text = "￥" + itemEst.money
+        formatterEst.dateFormat = itemEst.titleEst
+        cellEst.detailTextLabel?.text = formatterEst.string(from: itemEst.dateEst)
         cellEst.accessoryType = itemEst.done ? .checkmark : .none
         return cellEst
     }
@@ -76,8 +79,8 @@ class EstimateViewController: UITableViewController {
     
     //MARK: - チェックする機能
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let item = itemArray_Estimate[indexPath.row]
-        item.done = !item.done
+        let itemEst = itemArray_Estimate[indexPath.row]
+        itemEst.done = !itemEst.done
         self.tableView.reloadData()
     }
 }

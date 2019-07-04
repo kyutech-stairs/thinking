@@ -22,12 +22,13 @@ class Estimate_AddViewController: UIViewController{
     
     @IBAction func tappedButton(_ sender: Any) {
         if planField.text != ""{
-            let newItem = Item(initTitle: planField.text!)
-            newItem.date = date_Estimate.date
-            itemArray_Estimate.append(newItem)
+            let newItemEst = Item_Estimate(titleEst: planField.text!, money: moneyField.text! )
+            
+            newItemEst.dateEst = date_Estimate.date
+            itemArray_Estimate.append(newItemEst)
             //sort
             itemArray_Estimate = itemArray_Estimate.sorted(by: { (a, b) -> Bool in
-                return a.date < b.date
+                return a.dateEst < b.dateEst
             })
             planField.text = ""
             self.navigationController?.popViewController(animated: true)
@@ -37,5 +38,9 @@ class Estimate_AddViewController: UIViewController{
             alert.addAction(okButton)
             present(alert, animated: true, completion: nil)
         }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
 }
