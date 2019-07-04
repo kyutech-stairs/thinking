@@ -56,10 +56,8 @@ class EstimateViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellEst = tableView.dequeueReusableCell(withIdentifier: "ItemEstimateCell", for: indexPath)
         let itemEst = itemArray_Estimate[indexPath.row]
-        let formatterEst = DateFormatter()
         cellEst.textLabel?.text = "￥" + itemEst.money
-        formatterEst.dateFormat = itemEst.titleEst
-        cellEst.detailTextLabel?.text = formatterEst.string(from: itemEst.dateEst)
+        cellEst.detailTextLabel?.text = itemEst.titleEst
         cellEst.accessoryType = itemEst.done ? .checkmark : .none
         return cellEst
     }
