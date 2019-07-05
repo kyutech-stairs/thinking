@@ -45,7 +45,7 @@ class EstimateViewController: UITableViewController {
     }
     //MARK: - viewが表示される前に実行
     override func viewWillAppear(_ animated: Bool) {
-        self.tableView.reloadData()
+        reloadTotal()
         
     }
     //MARK: - セルの個数を返す
@@ -90,14 +90,20 @@ class EstimateViewController: UITableViewController {
         itemArray_Estimate.remove(at: indexPath.row)
         let indexPaths = [indexPath]
         self.tableView.deleteRows(at: indexPaths, with: .automatic)
+        reloadTotal()
     }
-    
-    
     
     //MARK: - チェックする機能
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let itemEst = itemArray_Estimate[indexPath.row]
         itemEst.done = !itemEst.done
+        reloadTotal()
+    }
+    
+    private func reloadTotal(){
+        self.total = 0
         self.tableView.reloadData()
     }
+    
+    
 }
