@@ -100,6 +100,8 @@ class EstimateViewController: UITableViewController {
         reloadTotal()
     }
     
+    //セクション分け
+    
     private func reloadTotal(){
         self.total = 0
         self.tableView.reloadData()
