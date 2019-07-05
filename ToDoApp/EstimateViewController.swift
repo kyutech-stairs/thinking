@@ -31,6 +31,7 @@ class EstimateViewController: UITableViewController {
     
     
     @IBOutlet weak var totalLabel: UILabel!
+    var total:Int = 0
     
     
     override func viewDidLoad() {
@@ -56,6 +57,11 @@ class EstimateViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellEst = tableView.dequeueReusableCell(withIdentifier: "ItemEstimateCell", for: indexPath)
         let itemEst = itemArray_Estimate[indexPath.row]
+        
+        //合計計算
+        total += Int(itemEst.money)!
+        totalLabel.text = "Total : ¥" + String(total)
+        
         cellEst.textLabel?.text = "￥" + itemEst.money
         cellEst.detailTextLabel?.text = itemEst.titleEst
         cellEst.accessoryType = itemEst.done ? .checkmark : .none
