@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209FBD1322C36BA3007E79C4 /* Estimate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209FBD1222C36BA3007E79C4 /* Estimate.storyboard */; };
+		204D2AAC22C9C62600BD7A72 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AAB22C9C62600BD7A72 /* test.storyboard */; };
+		204D2AAE22C9CD1F00BD7A72 /* EstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AAD22C9CD1F00BD7A72 /* EstimateViewController.swift */; };
+		204D2AB022CA570A00BD7A72 /* Estimate_AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AAF22CA570A00BD7A72 /* Estimate_AddViewController.swift */; };
 		CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC453E7228AC5E0004AACA2 /* AddViewController.swift */; };
 		CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20B822896ACB00708029 /* AppDelegate.swift */; };
 		CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */; };
@@ -17,7 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		209FBD1222C36BA3007E79C4 /* Estimate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Estimate.storyboard; sourceTree = "<group>"; };
+		204D2AAA22C9C5E400BD7A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		204D2AAB22C9C62600BD7A72 /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		204D2AAD22C9CD1F00BD7A72 /* EstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewController.swift; sourceTree = "<group>"; };
+		204D2AAF22CA570A00BD7A72 /* Estimate_AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estimate_AddViewController.swift; sourceTree = "<group>"; };
 		CCC453E7228AC5E0004AACA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		CCFF20B522896ACB00708029 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFF20B822896ACB00708029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,8 +69,10 @@
 				CCFF20BF22896ACB00708029 /* Assets.xcassets */,
 				CCFF20C122896ACB00708029 /* LaunchScreen.storyboard */,
 				CCFF20C422896ACB00708029 /* Info.plist */,
+				204D2AAB22C9C62600BD7A72 /* test.storyboard */,
 				CCC453E7228AC5E0004AACA2 /* AddViewController.swift */,
-				209FBD1222C36BA3007E79C4 /* Estimate.storyboard */,
+				204D2AAD22C9CD1F00BD7A72 /* EstimateViewController.swift */,
+				204D2AAF22CA570A00BD7A72 /* Estimate_AddViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -130,7 +137,7 @@
 			files = (
 				CCFF20C322896ACB00708029 /* LaunchScreen.storyboard in Resources */,
 				CCFF20C022896ACB00708029 /* Assets.xcassets in Resources */,
-				209FBD1322C36BA3007E79C4 /* Estimate.storyboard in Resources */,
+				204D2AAC22C9C62600BD7A72 /* test.storyboard in Resources */,
 				CCFF20BE22896ACB00708029 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204D2AB022CA570A00BD7A72 /* Estimate_AddViewController.swift in Sources */,
 				CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */,
+				204D2AAE22C9CD1F00BD7A72 /* EstimateViewController.swift in Sources */,
 				CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */,
 				CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */,
 			);
@@ -155,6 +164,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CCFF20BD22896ACB00708029 /* Base */,
+				204D2AAA22C9C5E400BD7A72 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "CgW-vb-69O"; */
+"CgW-vb-69O.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "plan"; ObjectID = "DOf-Fm-ztG"; */
+"DOf-Fm-ztG.title" = "plan";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Lpe-ge-o73"; */
+"Lpe-ge-o73.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "追加"; ObjectID = "R0U-DQ-SSb"; */
+"R0U-DQ-SSb.normalTitle" = "追加";
+
+/* Class = "UINavigationItem"; title = "当日の予定"; ObjectID = "ST5-bj-T4F"; */
+"ST5-bj-T4F.title" = "当日の予定";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hp2-pD-T1g"; */
+"hp2-pD-T1g.text" = "Title";
