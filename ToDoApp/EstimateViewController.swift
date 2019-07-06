@@ -37,9 +37,9 @@ class EstimateViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let item1 = Item_Estimate(titleEst: "",money: "0")
+        //let item1 = Item_Estimate(titleEst: "",money: "0")
         
-        itemArray_Estimate.append(item1)
+        //itemArray_Estimate.append(item1)
         
         
     }
