@@ -10,6 +10,9 @@
 		204D2AAC22C9C62600BD7A72 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AAB22C9C62600BD7A72 /* test.storyboard */; };
 		204D2AAE22C9CD1F00BD7A72 /* EstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AAD22C9CD1F00BD7A72 /* EstimateViewController.swift */; };
 		204D2AB022CA570A00BD7A72 /* Estimate_AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AAF22CA570A00BD7A72 /* Estimate_AddViewController.swift */; };
+		204D2AB222D0309700BD7A72 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AB122D0309600BD7A72 /* Home.storyboard */; };
+		204D2AB422D032FA00BD7A72 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AB322D032FA00BD7A72 /* HomeViewController.swift */; };
+		204D2AB622D0331800BD7A72 /* AddHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AB522D0331800BD7A72 /* AddHomeViewController.swift */; };
 		CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC453E7228AC5E0004AACA2 /* AddViewController.swift */; };
 		CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20B822896ACB00708029 /* AppDelegate.swift */; };
 		CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */; };
@@ -23,6 +26,9 @@
 		204D2AAB22C9C62600BD7A72 /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
 		204D2AAD22C9CD1F00BD7A72 /* EstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewController.swift; sourceTree = "<group>"; };
 		204D2AAF22CA570A00BD7A72 /* Estimate_AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estimate_AddViewController.swift; sourceTree = "<group>"; };
+		204D2AB122D0309600BD7A72 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		204D2AB322D032FA00BD7A72 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		204D2AB522D0331800BD7A72 /* AddHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHomeViewController.swift; sourceTree = "<group>"; };
 		CCC453E7228AC5E0004AACA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		CCFF20B522896ACB00708029 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFF20B822896ACB00708029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,9 @@
 				CCC453E7228AC5E0004AACA2 /* AddViewController.swift */,
 				204D2AAD22C9CD1F00BD7A72 /* EstimateViewController.swift */,
 				204D2AAF22CA570A00BD7A72 /* Estimate_AddViewController.swift */,
+				204D2AB122D0309600BD7A72 /* Home.storyboard */,
+				204D2AB322D032FA00BD7A72 /* HomeViewController.swift */,
+				204D2AB522D0331800BD7A72 /* AddHomeViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -136,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCFF20C322896ACB00708029 /* LaunchScreen.storyboard in Resources */,
+				204D2AB222D0309700BD7A72 /* Home.storyboard in Resources */,
 				CCFF20C022896ACB00708029 /* Assets.xcassets in Resources */,
 				204D2AAC22C9C62600BD7A72 /* test.storyboard in Resources */,
 				CCFF20BE22896ACB00708029 /* Main.storyboard in Resources */,
@@ -154,6 +164,8 @@
 				204D2AAE22C9CD1F00BD7A72 /* EstimateViewController.swift in Sources */,
 				CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */,
 				CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */,
+				204D2AB622D0331800BD7A72 /* AddHomeViewController.swift in Sources */,
+				204D2AB422D032FA00BD7A72 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
