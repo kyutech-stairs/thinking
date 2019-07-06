@@ -120,7 +120,7 @@
                                 <rect key="frame" x="189" y="589" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Done">
-                                    <color key="titleColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="tappedButton:" destination="Tea-vi-teh" eventType="touchUpInside" id="lW1-Sg-T37"/>
