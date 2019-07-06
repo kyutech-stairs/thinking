@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="378" y="75"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Home View Controller-->
         <scene sceneID="CL4-CB-zhg">
             <objects>
-                <viewController id="Tip-7y-8ad" sceneMemberID="viewController">
+                <viewController id="Tip-7y-8ad" customClass="AddHomeViewController" customModule="ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UGg-ah-EVw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +66,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="destenationField:" destination="xcZ-vH-EOK" eventType="editingDidEnd" id="bsS-6c-T5q"/>
+                                    <action selector="distinationField:" destination="xcZ-vH-EOK" eventType="editingDidEnd" id="2c9-oY-rPX"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DV1-w4-lcB">
                                 <rect key="frame" x="161" y="206" width="92" height="40"/>
@@ -75,9 +79,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hro-0G-1yp">
-                                <rect key="frame" x="184" y="480" width="46" height="30"/>
+                                <rect key="frame" x="192" y="480" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="OK"/>
                                 <connections>
                                     <segue destination="k83-EB-Yip" kind="show" id="UZX-2l-2td"/>
                                 </connections>
@@ -86,8 +90,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="avg-tj-KRp"/>
                     </view>
+                    <connections>
+                        <outlet property="destinationField" destination="Gvu-e6-cj6" id="Ju4-yv-t4d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KT3-EA-uWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xcZ-vH-EOK" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1405.7971014492755" y="70.982142857142847"/>
         </scene>

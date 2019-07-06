@@ -112,9 +112,9 @@
                                 <textInputTraits key="textInputTraits" keyboardType="twitter"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnw-cl-nFN">
-                                <rect key="frame" x="184" y="589" width="46" height="30"/>
+                                <rect key="frame" x="189" y="589" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Done"/>
                                 <connections>
                                     <action selector="tappedButton:" destination="Tea-vi-teh" eventType="touchUpInside" id="lW1-Sg-T37"/>
                                 </connections>

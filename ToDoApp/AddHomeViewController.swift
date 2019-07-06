@@ -11,6 +11,11 @@ import Foundation
 
 class AddHomeViewController: UIViewController{
     
+    
+    @IBOutlet weak var destinationField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

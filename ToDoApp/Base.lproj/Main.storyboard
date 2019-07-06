@@ -109,7 +109,7 @@
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0U-DQ-SSb">
                                 <rect key="frame" x="100" y="490" width="214" height="30"/>
-                                <state key="normal" title="追加">
+                                <state key="normal" title="Done">
                                     <color key="titleColor" red="0.57622398019999999" green="0.3887294831" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
