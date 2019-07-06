@@ -21,16 +21,21 @@
                         <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="1Cr-PO-Alr">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" white="0.93444991440000003" alpha="1" colorSpace="calibratedWhite"/>
                             <items>
                                 <navigationItem title="Plan" id="ddM-hP-0co">
-                                    <barButtonItem key="leftBarButtonItem" title="Home" id="C12-pG-IAQ">
+                                    <barButtonItem key="leftBarButtonItem" title="Home" image="touring_small.png" id="C12-pG-IAQ">
+                                        <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <segue destination="gRE-bf-PqK" kind="show" id="ext-AR-3Lj"/>
                                         </connections>
                                     </barButtonItem>
                                     <rightBarButtonItems>
-                                        <barButtonItem systemItem="save" id="oy6-4I-gWz"/>
+                                        <barButtonItem systemItem="save" id="oy6-4I-gWz">
+                                            <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
                                         <barButtonItem systemItem="add" id="fa9-OB-erY">
+                                            <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
                                                 <segue destination="ndb-Eq-KR6" kind="show" id="vFJ-JY-a3a"/>
                                             </connections>
@@ -58,7 +63,7 @@
                                             <rect key="frame" x="20" y="25.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -70,7 +75,7 @@
                             <outlet property="delegate" destination="6OW-wn-Lr7" id="Xox-g0-xLH"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Plan" id="r35-sD-c4d"/>
+                    <tabBarItem key="tabBarItem" title="Plan" image="plan.png" id="r35-sD-c4d"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8t-L5-Cg4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,7 +115,7 @@
                                 <rect key="frame" x="100" y="490" width="214" height="30"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-1" maxY="0.0"/>
                                 <state key="normal" title="Done">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="pressedButton:" destination="ndb-Eq-KR6" eventType="touchUpInside" id="Zvk-Ef-A7v"/>
@@ -148,7 +153,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AoU-te-m9Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="6OW-wn-Lr7" kind="relationship" relationship="viewControllers" id="ECy-Cm-y7e"/>
@@ -170,4 +176,8 @@
             <point key="canvasLocation" x="-2498" y="581"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plan.png" width="32" height="32"/>
+        <image name="touring_small.png" width="16.799999237060547" height="12.479999542236328"/>
+    </resources>
 </document>

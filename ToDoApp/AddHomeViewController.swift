@@ -14,11 +14,15 @@ class AddHomeViewController: UIViewController{
     
     @IBOutlet weak var destinationField: UITextField!
     
+    @IBOutlet weak var gotoImageView: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //画像表示
+        //let gotoimage = UIImage(named: "GoToimage.png")
+        //gotoImageView.image = gotoimage
         // Do any additional setup after loading the view.
     }
     
