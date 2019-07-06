@@ -26,6 +26,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="aaR-0j-UDQ" kind="show" id="PNr-Yn-nmC"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -44,6 +47,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDI-mF-KNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="378" y="75"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="kzE-2m-nC5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="aaR-0j-UDQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tws-BF-bc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="-256"/>
         </scene>
         <!--Add Home View Controller-->
         <scene sceneID="CL4-CB-zhg">

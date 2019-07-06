@@ -8,6 +8,16 @@
 import UIKit
 import Foundation
 
+class ItemHome{
+    
+    var done: Bool = false
+    
+    //変数の初期化
+}
+
+//配列
+//var itemArrayHome:[[ItemHome]] ＝ [[itemArray:[Item_Estimate]],[itemArray_Estimate:[Item]]]
+
 class HomeViewController: UIViewController{
     
     override func viewDidLoad() {
