@@ -24,11 +24,19 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="Plan" id="ddM-hP-0co">
-                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="fa9-OB-erY">
+                                    <barButtonItem key="leftBarButtonItem" title="Home" id="C12-pG-IAQ">
                                         <connections>
-                                            <segue destination="ndb-Eq-KR6" kind="show" id="vFJ-JY-a3a"/>
+                                            <segue destination="gRE-bf-PqK" kind="show" id="ext-AR-3Lj"/>
                                         </connections>
                                     </barButtonItem>
+                                    <rightBarButtonItems>
+                                        <barButtonItem systemItem="save" id="oy6-4I-gWz"/>
+                                        <barButtonItem systemItem="add" id="fa9-OB-erY">
+                                            <connections>
+                                                <segue destination="ndb-Eq-KR6" kind="show" id="vFJ-JY-a3a"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </rightBarButtonItems>
                                 </navigationItem>
                             </items>
                         </navigationBar>
@@ -68,6 +76,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8t-L5-Cg4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="110" y="114"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="tO2-az-Ln0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="gRE-bf-PqK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v0k-Ko-SwY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="509" y="-262"/>
         </scene>
         <!--Add View Controller-->
         <scene sceneID="5cb-wa-GMG">

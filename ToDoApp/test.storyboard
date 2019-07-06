@@ -23,11 +23,19 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="Estimate" id="Bnm-fb-J3H">
-                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="fAz-4j-x4b">
+                                    <barButtonItem key="leftBarButtonItem" title="Home" id="xDi-Yt-kcV">
                                         <connections>
-                                            <segue destination="Tea-vi-teh" kind="show" id="pCY-PA-Y9w"/>
+                                            <segue destination="fqL-Js-bYQ" kind="show" id="o2N-ms-EwX"/>
                                         </connections>
                                     </barButtonItem>
+                                    <rightBarButtonItems>
+                                        <barButtonItem systemItem="save" id="Jki-Fk-f1Q"/>
+                                        <barButtonItem systemItem="add" id="fAz-4j-x4b">
+                                            <connections>
+                                                <segue destination="Tea-vi-teh" kind="show" id="pCY-PA-Y9w"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </rightBarButtonItems>
                                 </navigationItem>
                             </items>
                         </navigationBar>
@@ -79,6 +87,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asa-ho-ucj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-255" y="279"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="PCF-Nv-c3m">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="fqL-Js-bYQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9f9-aw-3kR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="-86"/>
         </scene>
         <!--Estimate Add View Controller-->
         <scene sceneID="ND4-Kz-vQg">
