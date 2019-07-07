@@ -1,27 +1,19 @@
 //
-//  AddHomeViewController.swift
+//  MemoViewController.swift
 //  ToDoApp
 //
-//  Created by kai nakata on 2019/07/06.
+//  Created by kai nakata on 2019/07/08.
 //  Copyright © 2019 山之内一隆. All rights reserved.
 //
 
-import UIKit
 import Foundation
+import UIKit
 
-class AddHomeViewController: UIViewController{
-    
-    
-    @IBOutlet weak var destinationField: UITextField!
-    
-    @IBOutlet weak var tappedButtonHome: UIButton!
-        
-    
+class MemoViewController: UIViewController{
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //画像表示
         //let gotoimage = UIImage(named: "GoToimage.png")
         //gotoImageView.image = gotoimage

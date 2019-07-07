@@ -30,17 +30,12 @@
                                             <segue destination="gRE-bf-PqK" kind="show" id="ext-AR-3Lj"/>
                                         </connections>
                                     </barButtonItem>
-                                    <rightBarButtonItems>
-                                        <barButtonItem systemItem="save" id="oy6-4I-gWz">
-                                            <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </barButtonItem>
-                                        <barButtonItem systemItem="add" id="fa9-OB-erY">
-                                            <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <connections>
-                                                <segue destination="ndb-Eq-KR6" kind="show" id="vFJ-JY-a3a"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </rightBarButtonItems>
+                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="fa9-OB-erY">
+                                        <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <segue destination="ndb-Eq-KR6" kind="show" id="vFJ-JY-a3a"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </navigationItem>
                             </items>
                         </navigationBar>

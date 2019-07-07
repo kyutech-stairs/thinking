@@ -123,7 +123,7 @@
                     </view>
                     <connections>
                         <outlet property="destinationField" destination="Gvu-e6-cj6" id="Ju4-yv-t4d"/>
-                        <outlet property="gotoImageView" destination="EQR-cx-Ud6" id="llf-y4-pyn"/>
+                        <outlet property="tappedButtonHome" destination="hro-0G-1yp" id="xXw-Wo-OdK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KT3-EA-uWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
