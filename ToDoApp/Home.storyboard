@@ -26,6 +26,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="aaR-0j-UDQ" kind="show" id="PNr-Yn-nmC"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -35,6 +38,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="r7a-3l-hJ3" userLabel="Home">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="3G7-Kv-PC4">
+                            <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="Tip-7y-8ad" kind="show" id="Xck-0F-ghc"/>
                             </connections>
@@ -45,49 +49,81 @@
             </objects>
             <point key="canvasLocation" x="378" y="75"/>
         </scene>
-        <!--View Controller-->
+        <!--Main-->
+        <scene sceneID="kzE-2m-nC5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="aaR-0j-UDQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tws-BF-bc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="-256"/>
+        </scene>
+        <!--Add Home View Controller-->
         <scene sceneID="CL4-CB-zhg">
             <objects>
-                <viewController id="Tip-7y-8ad" sceneMemberID="viewController">
+                <viewController id="Tip-7y-8ad" customClass="AddHomeViewController" customModule="ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UGg-ah-EVw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DV1-w4-lcB">
+                                <rect key="frame" x="0.0" y="153" width="414" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hello!!">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.99599474668502808" green="0.99613386392593384" blue="0.99595099687576294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="33"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where are you going to travel?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aR-at-GPd">
-                                <rect key="frame" x="90" y="363" width="235" height="24"/>
+                                <rect key="frame" x="90" y="294" width="235" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DV1-w4-lcB">
-                                <rect key="frame" x="161" y="206" width="92" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="0.38123150261601058" green="0.70948330397353476" blue="0.88435668865544048" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hro-0G-1yp">
-                                <rect key="frame" x="184" y="590" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="k83-EB-Yip" kind="show" id="UZX-2l-2td"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tokyo" textAlignment="natural" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Gvu-e6-cj6">
-                                <rect key="frame" x="159" y="414" width="97" height="30"/>
+                                <rect key="frame" x="128" y="526" width="153" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="destenationField:" destination="xcZ-vH-EOK" eventType="editingDidEnd" id="bsS-6c-T5q"/>
+                                    <action selector="distinationField:" destination="xcZ-vH-EOK" eventType="editingDidEnd" id="2c9-oY-rPX"/>
+                                </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hro-0G-1yp">
+                                <rect key="frame" x="189" y="573" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="k83-EB-Yip" kind="show" id="UZX-2l-2td"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoToimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="EQR-cx-Ud6">
+                                <rect key="frame" x="87" y="362" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.79058468339999999" green="0.35805737970000001" blue="0.56079530720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="avg-tj-KRp"/>
                     </view>
+                    <connections>
+                        <outlet property="destinationField" destination="Gvu-e6-cj6" id="Ju4-yv-t4d"/>
+                        <outlet property="gotoImageView" destination="EQR-cx-Ud6" id="llf-y4-pyn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KT3-EA-uWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xcZ-vH-EOK" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1405.7971014492755" y="70.982142857142847"/>
         </scene>
@@ -107,6 +143,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="twQ-En-JD9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="5NY-e3-6ug" kind="relationship" relationship="rootViewController" id="YaE-9m-lbN"/>
@@ -116,4 +153,7 @@
             <point key="canvasLocation" x="-541" y="75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="GoToimage.png" width="256" height="256"/>
+    </resources>
 </document>

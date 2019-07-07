@@ -34,7 +34,7 @@ class AddViewController: UIViewController {
             textField.text = ""
             self.navigationController?.popViewController(animated: true)
         } else{
-            let alert = UIAlertController(title: "入力エラー！", message: "アイテムを入力して下さい", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Error!!", message: "Please enter an items", preferredStyle: .alert)
             let okButton = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alert.addAction(okButton)
             present(alert, animated: true, completion: nil)
