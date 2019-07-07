@@ -28,6 +28,8 @@
 		204D2AD622D169B300BD7A72 /* alchol.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD522D169B300BD7A72 /* alchol.png */; };
 		204D2AD922D1702B00BD7A72 /* candy.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD722D1702B00BD7A72 /* candy.png */; };
 		204D2ADA22D1702B00BD7A72 /* setsuko.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD822D1702B00BD7A72 /* setsuko.png */; };
+		204D2ADE22D1D9D600BD7A72 /* title_nospace.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2ADD22D1D9D600BD7A72 /* title_nospace.png */; };
+		204D2AE022D1DA8100BD7A72 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2ADF22D1DA8100BD7A72 /* title.png */; };
 		CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC453E7228AC5E0004AACA2 /* AddViewController.swift */; };
 		CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20B822896ACB00708029 /* AppDelegate.swift */; };
 		CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */; };
@@ -59,6 +61,8 @@
 		204D2AD522D169B300BD7A72 /* alchol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alchol.png; path = ../../../../Downloads/alchol.png; sourceTree = "<group>"; };
 		204D2AD722D1702B00BD7A72 /* candy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = candy.png; path = "../../../../Downloads/icon-rainbow-7/candy.png"; sourceTree = "<group>"; };
 		204D2AD822D1702B00BD7A72 /* setsuko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setsuko.png; path = "../../../../Downloads/icon-rainbow-7/setsuko.png"; sourceTree = "<group>"; };
+		204D2ADD22D1D9D600BD7A72 /* title_nospace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title_nospace.png; path = "../../../../Documents/画像/title_nospace.png"; sourceTree = "<group>"; };
+		204D2ADF22D1DA8100BD7A72 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = "../../../../Documents/画像/title.png"; sourceTree = "<group>"; };
 		CCC453E7228AC5E0004AACA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		CCFF20B522896ACB00708029 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFF20B822896ACB00708029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				204D2AD522D169B300BD7A72 /* alchol.png */,
 				204D2AD722D1702B00BD7A72 /* candy.png */,
 				204D2AD822D1702B00BD7A72 /* setsuko.png */,
+				204D2ADF22D1DA8100BD7A72 /* title.png */,
+				204D2ADD22D1D9D600BD7A72 /* title_nospace.png */,
 				204D2AC522D1564100BD7A72 /* Welcome.storyboard */,
 			);
 			path = ToDoApp;
@@ -199,6 +205,7 @@
 				204D2AC822D156A600BD7A72 /* touring_big.png in Resources */,
 				204D2ADA22D1702B00BD7A72 /* setsuko.png in Resources */,
 				204D2AD922D1702B00BD7A72 /* candy.png in Resources */,
+				204D2AE022D1DA8100BD7A72 /* title.png in Resources */,
 				204D2AD322D168A000BD7A72 /* hotel.png in Resources */,
 				CCFF20C022896ACB00708029 /* Assets.xcassets in Resources */,
 				204D2AD622D169B300BD7A72 /* alchol.png in Resources */,
@@ -208,6 +215,7 @@
 				204D2AD222D168A000BD7A72 /* pisa.png in Resources */,
 				204D2AC122D14DC200BD7A72 /* plan.png in Resources */,
 				CCFF20BE22896ACB00708029 /* Main.storyboard in Resources */,
+				204D2ADE22D1D9D600BD7A72 /* title_nospace.png in Resources */,
 				204D2ACA22D1584B00BD7A72 /* touring_superbig.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
