@@ -30,6 +30,15 @@
 		204D2ADA22D1702B00BD7A72 /* setsuko.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD822D1702B00BD7A72 /* setsuko.png */; };
 		204D2ADE22D1D9D600BD7A72 /* title_nospace.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2ADD22D1D9D600BD7A72 /* title_nospace.png */; };
 		204D2AE022D1DA8100BD7A72 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2ADF22D1DA8100BD7A72 /* title.png */; };
+		204D2AE222D202E100BD7A72 /* memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE122D202E100BD7A72 /* memo.storyboard */; };
+		204D2AE922D20B6F00BD7A72 /* man_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE522D20B6E00BD7A72 /* man_back.png */; };
+		204D2AEA22D20B6F00BD7A72 /* memo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE622D20B6F00BD7A72 /* memo_icon.png */; };
+		204D2AEB22D20B6F00BD7A72 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE722D20B6F00BD7A72 /* pen.png */; };
+		204D2AEC22D20B6F00BD7A72 /* ink.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE822D20B6F00BD7A72 /* ink.png */; };
+		204D2AF022D20CE100BD7A72 /* pen_hol_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AED22D20CE000BD7A72 /* pen_hol_white.png */; };
+		204D2AF122D20CE100BD7A72 /* pen_hol_bla.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AEE22D20CE000BD7A72 /* pen_hol_bla.png */; };
+		204D2AF222D20CE100BD7A72 /* pen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AEF22D20CE000BD7A72 /* pen2.png */; };
+		204D2AF422D226EE00BD7A72 /* touring_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AF322D226EE00BD7A72 /* touring_icon.png */; };
 		CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC453E7228AC5E0004AACA2 /* AddViewController.swift */; };
 		CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20B822896ACB00708029 /* AppDelegate.swift */; };
 		CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */; };
@@ -63,6 +72,15 @@
 		204D2AD822D1702B00BD7A72 /* setsuko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setsuko.png; path = "../../../../Downloads/icon-rainbow-7/setsuko.png"; sourceTree = "<group>"; };
 		204D2ADD22D1D9D600BD7A72 /* title_nospace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title_nospace.png; path = "../../../../Documents/画像/title_nospace.png"; sourceTree = "<group>"; };
 		204D2ADF22D1DA8100BD7A72 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = "../../../../Documents/画像/title.png"; sourceTree = "<group>"; };
+		204D2AE122D202E100BD7A72 /* memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = memo.storyboard; sourceTree = "<group>"; };
+		204D2AE522D20B6E00BD7A72 /* man_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_back.png; path = "../../../../Documents/画像/man_back.png"; sourceTree = "<group>"; };
+		204D2AE622D20B6F00BD7A72 /* memo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = memo_icon.png; path = "../../../../Documents/画像/memo_icon.png"; sourceTree = "<group>"; };
+		204D2AE722D20B6F00BD7A72 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pen.png; path = "../../../../Documents/画像/pen.png"; sourceTree = "<group>"; };
+		204D2AE822D20B6F00BD7A72 /* ink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ink.png; path = "../../../../Documents/画像/ink.png"; sourceTree = "<group>"; };
+		204D2AED22D20CE000BD7A72 /* pen_hol_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pen_hol_white.png; path = "../../../../Downloads/icon-rainbow-9/pen_hol_white.png"; sourceTree = "<group>"; };
+		204D2AEE22D20CE000BD7A72 /* pen_hol_bla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pen_hol_bla.png; path = "../../../../Downloads/icon-rainbow-9/pen_hol_bla.png"; sourceTree = "<group>"; };
+		204D2AEF22D20CE000BD7A72 /* pen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pen2.png; path = "../../../../Downloads/icon-rainbow-9/pen2.png"; sourceTree = "<group>"; };
+		204D2AF322D226EE00BD7A72 /* touring_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = touring_icon.png; path = "../../../../Documents/画像/touring_icon.png"; sourceTree = "<group>"; };
 		CCC453E7228AC5E0004AACA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		CCFF20B522896ACB00708029 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFF20B822896ACB00708029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +125,8 @@
 				CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */,
 				CCFF20BC22896ACB00708029 /* Main.storyboard */,
 				CCFF20BF22896ACB00708029 /* Assets.xcassets */,
+				204D2AF322D226EE00BD7A72 /* touring_icon.png */,
+				204D2AC722D156A500BD7A72 /* touring_big.png */,
 				CCFF20C122896ACB00708029 /* LaunchScreen.storyboard */,
 				CCFF20C422896ACB00708029 /* Info.plist */,
 				204D2AAB22C9C62600BD7A72 /* test.storyboard */,
@@ -120,7 +140,6 @@
 				204D2AC022D14DC100BD7A72 /* estimate.png */,
 				204D2ABF22D14DC100BD7A72 /* plan.png */,
 				204D2AC322D154C500BD7A72 /* touring_small.png */,
-				204D2AC722D156A500BD7A72 /* touring_big.png */,
 				204D2AC922D1584B00BD7A72 /* touring_superbig.png */,
 				204D2ACB22D166A900BD7A72 /* man.png */,
 				204D2ACC22D166A900BD7A72 /* wifi.png */,
@@ -132,7 +151,15 @@
 				204D2AD822D1702B00BD7A72 /* setsuko.png */,
 				204D2ADF22D1DA8100BD7A72 /* title.png */,
 				204D2ADD22D1D9D600BD7A72 /* title_nospace.png */,
+				204D2AE822D20B6F00BD7A72 /* ink.png */,
+				204D2AE522D20B6E00BD7A72 /* man_back.png */,
+				204D2AE622D20B6F00BD7A72 /* memo_icon.png */,
+				204D2AE722D20B6F00BD7A72 /* pen.png */,
+				204D2AEE22D20CE000BD7A72 /* pen_hol_bla.png */,
+				204D2AED22D20CE000BD7A72 /* pen_hol_white.png */,
+				204D2AEF22D20CE000BD7A72 /* pen2.png */,
 				204D2AC522D1564100BD7A72 /* Welcome.storyboard */,
+				204D2AE122D202E100BD7A72 /* memo.storyboard */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -205,15 +232,24 @@
 				204D2AC822D156A600BD7A72 /* touring_big.png in Resources */,
 				204D2ADA22D1702B00BD7A72 /* setsuko.png in Resources */,
 				204D2AD922D1702B00BD7A72 /* candy.png in Resources */,
+				204D2AF122D20CE100BD7A72 /* pen_hol_bla.png in Resources */,
 				204D2AE022D1DA8100BD7A72 /* title.png in Resources */,
 				204D2AD322D168A000BD7A72 /* hotel.png in Resources */,
+				204D2AE222D202E100BD7A72 /* memo.storyboard in Resources */,
 				CCFF20C022896ACB00708029 /* Assets.xcassets in Resources */,
 				204D2AD622D169B300BD7A72 /* alchol.png in Resources */,
+				204D2AEC22D20B6F00BD7A72 /* ink.png in Resources */,
+				204D2AEB22D20B6F00BD7A72 /* pen.png in Resources */,
 				204D2ACD22D166A900BD7A72 /* man.png in Resources */,
 				204D2AAC22C9C62600BD7A72 /* test.storyboard in Resources */,
 				204D2AD422D168A000BD7A72 /* tree.png in Resources */,
 				204D2AD222D168A000BD7A72 /* pisa.png in Resources */,
+				204D2AF022D20CE100BD7A72 /* pen_hol_white.png in Resources */,
+				204D2AF422D226EE00BD7A72 /* touring_icon.png in Resources */,
+				204D2AE922D20B6F00BD7A72 /* man_back.png in Resources */,
 				204D2AC122D14DC200BD7A72 /* plan.png in Resources */,
+				204D2AEA22D20B6F00BD7A72 /* memo_icon.png in Resources */,
+				204D2AF222D20CE100BD7A72 /* pen2.png in Resources */,
 				CCFF20BE22896ACB00708029 /* Main.storyboard in Resources */,
 				204D2ADE22D1D9D600BD7A72 /* title_nospace.png in Resources */,
 				204D2ACA22D1584B00BD7A72 /* touring_superbig.png in Resources */,
