@@ -7,29 +7,38 @@
 //
 
 import UIKit
+import RealmSwift
 
 //MARK:- Itemクラス
-class Item{
-    var title: String
+class Item: Object{
+    var title:String!
+    convenience init(title: String) {
+        self.init()
+        self.title = title
+    }
     var done: Bool = false
     var date: Date = Date()
     //変数の初期化
-    init(initTitle: String){
-        self.title = initTitle
-    }
+    //init(initTitle: String){
+    //    self.title = initTitle
+    //}
 }
 
 //MARK: - item配列
 var itemArray:[Item] = []
 
 class ToDoListViewController: UITableViewController {
-    
+
     //MARK: - viewを読み込む時に実行
     override func viewDidLoad() {
         super.viewDidLoad()
-        let item1 = Item(initTitle: "予定を追加していきましょう！")
+        let item1 = Item(title: "予定を追加していきましょう！")
 
         itemArray.append(item1)
+        // デフォルトRealmを取得
+        let realm = try! Realm()
+        // 一覧を取得
+        itemArray.append(realm.objects(itemArray.self))
     }
     
     //MARK: - viewが表示される前に実行
