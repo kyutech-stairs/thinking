@@ -74,7 +74,7 @@
 		204D2ADD22D1D9D600BD7A72 /* title_nospace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title_nospace.png; path = "../../../../Documents/画像/title_nospace.png"; sourceTree = "<group>"; };
 		204D2ADF22D1DA8100BD7A72 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = ../image_touring/title.png; sourceTree = "<group>"; };
 		204D2AE122D202E100BD7A72 /* memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = memo.storyboard; sourceTree = "<group>"; };
-		204D2AE522D20B6E00BD7A72 /* man_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_back.png; path = "../../../../Documents/画像/man_back.png"; sourceTree = "<group>"; };
+		204D2AE522D20B6E00BD7A72 /* man_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_back.png; path = ../image_touring/man_back.png; sourceTree = "<group>"; };
 		204D2AE622D20B6F00BD7A72 /* memo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = memo_icon.png; path = ../image_touring/memo_icon.png; sourceTree = "<group>"; };
 		204D2AE722D20B6F00BD7A72 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pen.png; path = ../image_touring/pen.png; sourceTree = "<group>"; };
 		204D2AE822D20B6F00BD7A72 /* ink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ink.png; path = ../image_touring/ink.png; sourceTree = "<group>"; };
