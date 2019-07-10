@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class AddViewController: UIViewController {
 
@@ -20,18 +21,24 @@ class AddViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
 
     @IBAction func pressedButton(_ sender: Any) {
         if textField.text != ""{
-            let newItem = Item(initTitle: textField.text!)
+            let newItem = Item(title: textField.text!)
             newItem.date = datePicker.date
             itemArray.append(newItem)
+            //print(newItem.date)
+            //print(itemArray[0].title)
             //sort
             itemArray = itemArray.sorted(by: { (a, b) -> Bool in
                 return a.date < b.date
             })
             textField.text = ""
+            // 保存
+            let realm = try! Realm()
+            try! realm.write {
+                realm.add(newItem)
+            }
             self.navigationController?.popViewController(animated: true)
         } else{
             let alert = UIAlertController(title: "Error!!", message: "Please enter an items", preferredStyle: .alert)
@@ -40,6 +47,7 @@ class AddViewController: UIViewController {
             present(alert, animated: true, completion: nil)
         }
     }
+    
     /*
     // MARK: - Navigation
 
