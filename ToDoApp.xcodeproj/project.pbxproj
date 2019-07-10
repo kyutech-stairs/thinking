@@ -39,6 +39,7 @@
 		204D2AF222D20CE100BD7A72 /* pen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AEF22D20CE000BD7A72 /* pen2.png */; };
 		204D2AF422D226EE00BD7A72 /* touring_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AF322D226EE00BD7A72 /* touring_icon.png */; };
 		204D2AF622D24B5E00BD7A72 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D2AF522D24B5E00BD7A72 /* MemoViewController.swift */; };
+		204D2AF822D665BB00BD7A72 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AF722D665BB00BD7A72 /* paper.png */; };
 		CCC453E8228AC5E0004AACA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC453E7228AC5E0004AACA2 /* AddViewController.swift */; };
 		CCFF20B922896ACB00708029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20B822896ACB00708029 /* AppDelegate.swift */; };
 		CCFF20BB22896ACB00708029 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF20BA22896ACB00708029 /* ToDoListViewController.swift */; };
@@ -81,6 +82,7 @@
 		204D2AEF22D20CE000BD7A72 /* pen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pen2.png; path = ../image_touring/pen2.png; sourceTree = "<group>"; };
 		204D2AF322D226EE00BD7A72 /* touring_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = touring_icon.png; path = ../image_touring/touring_icon.png; sourceTree = "<group>"; };
 		204D2AF522D24B5E00BD7A72 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		204D2AF722D665BB00BD7A72 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper.png; path = image_touring/paper.png; sourceTree = SOURCE_ROOT; };
 		CCC453E7228AC5E0004AACA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		CCFF20B522896ACB00708029 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFF20B822896ACB00708029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				204D2AEE22D20CE000BD7A72 /* pen_hol_bla.png */,
 				204D2AED22D20CE000BD7A72 /* pen_hol_white.png */,
 				204D2AEF22D20CE000BD7A72 /* pen2.png */,
+				204D2AF722D665BB00BD7A72 /* paper.png */,
 				204D2AC522D1564100BD7A72 /* Welcome.storyboard */,
 				204D2AE122D202E100BD7A72 /* memo.storyboard */,
 				204D2AF522D24B5E00BD7A72 /* MemoViewController.swift */,
@@ -239,6 +242,7 @@
 				CCFF20C022896ACB00708029 /* Assets.xcassets in Resources */,
 				204D2AD622D169B300BD7A72 /* alchol.png in Resources */,
 				204D2AEC22D20B6F00BD7A72 /* ink.png in Resources */,
+				204D2AF822D665BB00BD7A72 /* paper.png in Resources */,
 				204D2AEB22D20B6F00BD7A72 /* pen.png in Resources */,
 				204D2ACD22D166A900BD7A72 /* man.png in Resources */,
 				204D2AAC22C9C62600BD7A72 /* test.storyboard in Resources */,
