@@ -28,7 +28,6 @@
 		204D2AD622D169B300BD7A72 /* alchol.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD522D169B300BD7A72 /* alchol.png */; };
 		204D2AD922D1702B00BD7A72 /* candy.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD722D1702B00BD7A72 /* candy.png */; };
 		204D2ADA22D1702B00BD7A72 /* setsuko.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AD822D1702B00BD7A72 /* setsuko.png */; };
-		204D2ADE22D1D9D600BD7A72 /* title_nospace.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2ADD22D1D9D600BD7A72 /* title_nospace.png */; };
 		204D2AE022D1DA8100BD7A72 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2ADF22D1DA8100BD7A72 /* title.png */; };
 		204D2AE222D202E100BD7A72 /* memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE122D202E100BD7A72 /* memo.storyboard */; };
 		204D2AE922D20B6F00BD7A72 /* man_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 204D2AE522D20B6E00BD7A72 /* man_back.png */; };
@@ -71,7 +70,6 @@
 		204D2AD522D169B300BD7A72 /* alchol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alchol.png; path = ../image_touring/alchol.png; sourceTree = "<group>"; };
 		204D2AD722D1702B00BD7A72 /* candy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = candy.png; path = ../image_touring/candy.png; sourceTree = "<group>"; };
 		204D2AD822D1702B00BD7A72 /* setsuko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setsuko.png; path = ../image_touring/setsuko.png; sourceTree = "<group>"; };
-		204D2ADD22D1D9D600BD7A72 /* title_nospace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title_nospace.png; path = "../../../../Documents/画像/title_nospace.png"; sourceTree = "<group>"; };
 		204D2ADF22D1DA8100BD7A72 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = ../image_touring/title.png; sourceTree = "<group>"; };
 		204D2AE122D202E100BD7A72 /* memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = memo.storyboard; sourceTree = "<group>"; };
 		204D2AE522D20B6E00BD7A72 /* man_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_back.png; path = ../image_touring/man_back.png; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				204D2AD722D1702B00BD7A72 /* candy.png */,
 				204D2AD822D1702B00BD7A72 /* setsuko.png */,
 				204D2ADF22D1DA8100BD7A72 /* title.png */,
-				204D2ADD22D1D9D600BD7A72 /* title_nospace.png */,
 				204D2AE822D20B6F00BD7A72 /* ink.png */,
 				204D2AE522D20B6E00BD7A72 /* man_back.png */,
 				204D2AE622D20B6F00BD7A72 /* memo_icon.png */,
@@ -254,7 +251,6 @@
 				204D2AEA22D20B6F00BD7A72 /* memo_icon.png in Resources */,
 				204D2AF222D20CE100BD7A72 /* pen2.png in Resources */,
 				CCFF20BE22896ACB00708029 /* Main.storyboard in Resources */,
-				204D2ADE22D1D9D600BD7A72 /* title_nospace.png in Resources */,
 				204D2ACA22D1584B00BD7A72 /* touring_superbig.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

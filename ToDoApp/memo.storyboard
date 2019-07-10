@@ -13,7 +13,7 @@
         <!--Memo-->
         <scene sceneID="Waj-D9-4f7">
             <objects>
-                <viewController id="B5R-rM-v7e" sceneMemberID="viewController">
+                <viewController id="B5R-rM-v7e" customClass="MemoViewController" customModule="ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FFZ-fM-4jk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,11 +41,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="KPo-Cq-R6K">
-                                <rect key="frame" x="87" y="252" width="240" height="128"/>
+                                <rect key="frame" x="87" y="261" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1O-KH-eJi">
-                                <rect key="frame" x="38" y="398" width="339" height="21"/>
+                                <rect key="frame" x="58" y="413" width="299" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -53,28 +53,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ink.png" translatesAutoresizingMaskIntoConstraints="NO" id="wGX-qL-fgK">
-                                <rect key="frame" x="103" y="236" width="43" height="48"/>
+                                <rect key="frame" x="103" y="245" width="43" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pen2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6WW-SP-GAr">
-                                <rect key="frame" x="264" y="304" width="44" height="48"/>
+                                <rect key="frame" x="264" y="313" width="44" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pen_hol_bla.png" translatesAutoresizingMaskIntoConstraints="NO" id="3ua-5M-m3S">
-                                <rect key="frame" x="241" y="256" width="39" height="45"/>
+                                <rect key="frame" x="241" y="265" width="39" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pen_hol_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="k9K-JJ-3RN">
-                                <rect key="frame" x="258" y="262" width="44" height="39"/>
+                                <rect key="frame" x="258" y="271" width="44" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" scrollEnabled="NO" text="Add  to memos" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8eX-6g-r3d">
-                                <rect key="frame" x="49" y="420" width="317" height="321"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LbS-Ve-RzO">
+                                <rect key="frame" x="68" y="427" width="279" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95344225888324874" green="0.87409113426049811" blue="0.55699389862848114" alpha="0.71703767123287676" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.92080621848934019" green="0.87742031760010297" blue="0.64560228224948579" alpha="0.61237157534246578" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,6 +81,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Memo" image="memo_icon.png" id="LZK-7E-Roc"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textview" destination="LbS-Ve-RzO" id="1DR-6B-Uy8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jGh-kI-EKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

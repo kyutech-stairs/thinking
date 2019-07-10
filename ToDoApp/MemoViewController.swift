@@ -11,10 +11,10 @@ import UIKit
 
 class MemoViewController: UIViewController{
     
+    @IBOutlet weak var textview: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //画像表示
         //let gotoimage = UIImage(named: "GoToimage.png")
         //gotoImageView.image = gotoimage
         // Do any additional setup after loading the view.
