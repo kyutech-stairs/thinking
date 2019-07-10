@@ -11,13 +11,13 @@ import RealmSwift
 
 //MARK:- Itemクラス
 class Item: Object{
-    var title:String!
+    @objc dynamic var title:String!
     convenience init(title: String) {
         self.init()
         self.title = title
     }
-    var done: Bool = false
-    var date: Date = Date()
+    @objc dynamic var done: Bool = false
+    @objc dynamic var date: Date = Date()
     //変数の初期化
     //init(initTitle: String){
     //    self.title = initTitle
@@ -32,13 +32,25 @@ class ToDoListViewController: UITableViewController {
     //MARK: - viewを読み込む時に実行
     override func viewDidLoad() {
         super.viewDidLoad()
-        let item1 = Item(title: "予定を追加していきましょう！")
 
-        itemArray.append(item1)
+        //let item1 = Item(title: "予定を追加していきましょう！")
+
+        //itemArray.append(item1)
         // デフォルトRealmを取得
         let realm = try! Realm()
         // 一覧を取得
-        itemArray.append(realm.objects(itemArray.self))
+        //itemArray.append(realm.objects(itemArray.self))
+        let results = realm.objects(Item.self).sorted(byKeyPath: "date")
+        // Realmに保存されているすべてのオブジェクトを削除します。
+//        try! realm.write {
+//            realm.deleteAll()
+//        }
+        print(results)
+        for tmp in results {
+            itemArray.append(tmp)
+            print(tmp)
+        }
+        //print(itemArray[0].title)
     }
     
     //MARK: - viewが表示される前に実行
@@ -79,6 +91,13 @@ class ToDoListViewController: UITableViewController {
 //    }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+        // デフォルトRealmを取得
+        let realm = try! Realm()
+        // トランザクションを開始してオブジェクトを削除します
+        try! realm.write {
+            realm.delete(itemArray[indexPath.row])
+        }
         itemArray.remove(at: indexPath.row)
         let indexPaths = [indexPath]
         self.tableView.deleteRows(at: indexPaths, with: .automatic)

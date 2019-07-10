@@ -27,6 +27,8 @@ class AddViewController: UIViewController {
             let newItem = Item(title: textField.text!)
             newItem.date = datePicker.date
             itemArray.append(newItem)
+            //print(newItem.date)
+            //print(itemArray[0].title)
             //sort
             itemArray = itemArray.sorted(by: { (a, b) -> Bool in
                 return a.date < b.date
@@ -35,11 +37,11 @@ class AddViewController: UIViewController {
             // 保存
             let realm = try! Realm()
             try! realm.write {
-                realm.add(itemArray)
+                realm.add(newItem)
             }
             self.navigationController?.popViewController(animated: true)
         } else{
-            let alert = UIAlertController(title: "入力エラー！", message: "アイテムを入力して下さい", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Error!!", message: "Please enter an items", preferredStyle: .alert)
             let okButton = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alert.addAction(okButton)
             present(alert, animated: true, completion: nil)
